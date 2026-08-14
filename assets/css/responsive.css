@@ -394,6 +394,27 @@
         font-size: 13px;
         padding: 10px 8px;
     }
+    .about-phone {
+        width: 42px;
+        height: 42px;
+        padding: 0;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-mm {
+        margin-bottom: 6px;
+        line-height: 1.2;
+    }
+    .about-call-list {
+        align-items: flex-start;
+        gap: 6px;
+    }
+    .about-call-list a {
+        display: inline-block;
+        line-height: 1.35;
+        word-break: break-word;
+    }
     .section-2 {
         padding-top: 44px;
     }
