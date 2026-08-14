@@ -680,6 +680,17 @@ li a:hover {
     margin: 0;
 }
 
+.about-wrapper .btn-third {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    border-color: transparent;
+}
+
+.about-wrapper .btn-third:hover {
+    background-color: #9a8163;
+    color: var(--color-white);
+}
+
 .about-call-list {
     display: flex;
     flex-direction: column;
@@ -688,10 +699,15 @@ li a:hover {
 
 .about-phone {
     color: var(--color-primary);
-    padding: 15px;
     border: 1px solid var(--color-primary);
     border-radius: 50%;
-    text-align: end;
+    width: 46px;
+    height: 46px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    line-height: 1;
 }
 
 /* Section 3 end */
