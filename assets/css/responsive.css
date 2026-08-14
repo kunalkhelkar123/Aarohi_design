@@ -11,9 +11,12 @@
     .index-sec-2-img{
         margin-bottom: 180px;
     }
+    .service-img-wrap{
+        margin-bottom: 220px;
+    }
     .service-img-cont-wrapper {
-        width: 85%;
-        top: 42%;
+        width: 88%;
+        bottom: -180px;
     }
     .sec-2-service-img-wrapper{
         padding: 0;
@@ -81,14 +84,20 @@
         padding-bottom: 10px;
     }
     .service-img-wrap{
-        margin-bottom: 165px;
+        margin-bottom: 230px;
     }
     .sec-2-service-img-wrapper{
         padding-left: 0;
         padding-right: 0;
     }
     .service-img-cont-wrapper{
-        width: 87%;
+        width: 90%;
+        bottom: -195px;
+        padding: 24px 22px;
+    }
+    .service-img-cont-wrapper .service-img-btn{
+        width: 100%;
+        justify-content: center;
     }
     .section-2{
         padding-bottom: 0px;

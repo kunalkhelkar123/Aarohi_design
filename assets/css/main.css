@@ -383,12 +383,18 @@ li a:hover {
 }
 
 .service-wrapper-h1 span {
-    font-size: 55px;
+    font-size: 35px;
+}
+
+.service-wrapper-h1 span i {
+    font-size: 32px;
 }
 
 .service-h {
     text-decoration: none;
     color: var(--color-secondary);
+    font-size: 20px;
+    font-weight: 700;
 }
 
 .service-h:hover {
@@ -405,23 +411,48 @@ li a:hover {
     color: var(--color-primary);
 }
 
+.service-img-cont-wrapper .service-img-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    border-radius: 6px;
+    border: 1px solid var(--color-primary);
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+.service-img-cont-wrapper .service-img-btn:hover {
+    background-color: transparent;
+    color: var(--color-primary);
+}
+
 .service-img-p {
     font-size: 14px;
+    color: var(--color-body);
+    line-height: 24px;
 }
 
 .service-img-wrap {
     position: relative;
+    margin-bottom: 210px;
 }
 
 .service-img-cont-wrapper {
     position: absolute;
-    top: 50%;
+    bottom: -165px;
     background: #fff;
-    width: 80%;
+    width: 84%;
     left: 50%;
-    right: 50%;
-    transform: translate(-50%);
+    transform: translateX(-50%);
     padding: 30px 32px;
+    border-radius: 12px;
+    border: 1px solid #ede5da;
+    box-shadow: 0 14px 32px rgba(31, 31, 37, 0.12);
+    z-index: 2;
 }
 
 /*Img area End*/
@@ -744,20 +775,22 @@ li a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 32px;
-    width: 10px;
-    border: 1px solid #7d7d7d47;
+    height: 40px;
+    width: 40px;
+    border: 1px solid var(--color-primary);
     border-radius: 50%;
+    background-color: var(--color-primary);
 }
 
 .footer-icon-wrapper-a:hover .footer-icon,
 .footer-icon-wrapper-a:hover {
     color: var(--color-primary);
     border-color: var(--color-primary);
+    background-color: transparent;
 }
 
 .footer-icon {
-    color: var(--color-body);
+    color: var(--color-white);
     font-size: 16px
 }
 
@@ -767,10 +800,14 @@ li a:hover {
 }
 
 .ftr-sec-a-sec-2 {
-    color: var(--color-heading-1);
-    font-weight: 500;
+    color: var(--color-primary);
+    font-weight: 700;
     text-decoration: none;
     font-size: 16px;
+}
+
+.ftr-sec-a-sec-2:hover {
+    color: var(--color-heading-1);
 }
 
 .footer-phone-list {
@@ -1544,10 +1581,11 @@ li a:hover {
 
 /*Service Start*/
 .service-sec-2-bg-wrapper {
-    border: 1px solid #dadada;
+    border: 3px solid #bbbbbb;
     padding: 35px 30px;
     background-color: #fff;
     position: relative;
+    box-shadow: 0 10px 24px rgba(31, 31, 37, 0.06);
 }
 
 .service-sec-2-bg-wrapper::after {
@@ -1568,10 +1606,43 @@ li a:hover {
 
 .service-sec-2-bg-wrapper:hover,
 .service-sec-2-bg-wrapper:hover .service-sec-2-svg path,
+.service-sec-2-bg-wrapper:hover .service-h,
 .service-sec-2-bg-wrapper:hover .service-sec-2-img-p,
 .service-sec-2-bg-wrapper:hover .service-sec-2-img-btn {
     color: #fff;
     fill: #fff;
+}
+
+.service-sec-2-img-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 12px;
+    padding: 10px 18px;
+    border-radius: 6px;
+    border: 1px solid var(--color-primary);
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.service-sec-2-img-btn:hover {
+    background-color: transparent;
+    color: var(--color-primary);
+}
+
+.service-sec-2-bg-wrapper:hover .service-sec-2-img-btn {
+    background-color: #fff;
+    color: var(--color-primary);
+    border-color: #fff;
+}
+
+.service-sec-2-bg-wrapper:hover .service-sec-2-img-btn:hover {
+    background-color: transparent;
+    color: #fff;
 }
 
 .service-detail-section-2 {
