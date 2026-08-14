@@ -137,6 +137,12 @@
     .section-9{
         padding-bottom: 30px;
     }
+    .footer{
+        padding: 56px 0 30px;
+    }
+    .footer-row-2{
+        padding: 12px 0 16px;
+    }
     .footer-btn{
         top: 22%;
         right: 4%;
@@ -159,6 +165,17 @@
     }
     .header-nav-mob{
         background-color: #141414 !important;
+    }
+    .ftr-row-2-wrapper{
+        flex-wrap: wrap;
+        row-gap: 8px;
+    }
+    .footer-r-2-wrapper{
+        gap: 14px;
+        padding-left: 0;
+    }
+    .footer-r-2-a{
+        font-size: 13px;
     }
     .sec-7-row-2-img{
         width: 100%;
