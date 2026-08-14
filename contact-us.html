@@ -156,7 +156,7 @@
                                             <textarea name="message" id="contactMessage" placeholder="Send Message" class="about-sec-form-input" rows="3" required></textarea>
                                         </div>
                                         <div>
-                                            <button type="submit" class="contact-sec-2-form-btn">Send on WhatsApp</button>
+                                            <button type="submit" class="contact-sec-2-form-btn">Submit</button>
                                         </div>
                                     </form>
                                 </div>
@@ -192,32 +192,6 @@
     <script src="assets/js/swiper.js"></script>
     <script src="assets/js/animation.js"></script>
     <script src="assets/js/main.js"></script>
-    <script>
-        (function () {
-            var form = document.getElementById("contact-enquiry-form");
-            if (!form) return;
-
-            form.addEventListener("submit", function (event) {
-                event.preventDefault();
-
-                var name = (document.getElementById("contactName").value || "").trim();
-                var phone = (document.getElementById("contactPhone").value || "").trim();
-                var message = (document.getElementById("contactMessage").value || "").trim();
-
-                if (!name || !phone || !message) {
-                    return;
-                }
-
-                var text = "Hello Aarohi Design,%0A%0A"
-                    + "Name: " + encodeURIComponent(name) + "%0A"
-                    + "Phone: " + encodeURIComponent(phone) + "%0A"
-                    + "Message: " + encodeURIComponent(message);
-
-                window.open("https://wa.me/919067755663?text=" + text, "_blank");
-                form.reset();
-            });
-        })();
-    </script>
 </body>
 </html>
 
