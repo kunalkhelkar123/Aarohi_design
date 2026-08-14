@@ -105,12 +105,13 @@
     .index-page #Section2 .service-img-wrap {
         flex: 0 0 50%;
         max-width: 50%;
-        margin-bottom: 72px;
+        margin-bottom: 132px;
     }
     .index-page #Section2 .service-img-cont-wrapper {
         position: absolute;
         left: 50%;
-        bottom: -44px;
+        top: calc(100% - 34px);
+        bottom: auto;
         transform: translateX(-50%);
         width: 92%;
         padding: 14px 12px;
