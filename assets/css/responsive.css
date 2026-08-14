@@ -136,6 +136,18 @@
         padding: 8px 10px;
         font-size: 13px;
     }
+    .index-page #Section-6 {
+        padding: 24px 0 10px;
+    }
+    .index-page #Section-6 .section-6 {
+        padding: 20px 0 10px;
+    }
+    .index-page #Section-6 .mt--70 {
+        margin-top: 24px !important;
+    }
+    .index-page #Section-7 .section-7 {
+        padding-top: 36px;
+    }
     .section-2{
         padding-bottom: 0px;
     }
