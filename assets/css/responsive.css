@@ -437,23 +437,35 @@
         font-size: 13px;
         padding: 10px 8px;
     }
+    .index-page #Section-3 .about-wrapper .row.mt-5 > .col-md-4.col-12:first-child {
+        text-align: center;
+    }
+    .index-page #Section-3 .about-wrapper .row.mt-5 > .col-md-4.col-12:first-child .btn-third {
+        margin: 0 auto;
+    }
+    .index-page #Section-3 .about-wrapper .row.mt-5 > .col-md-4.col-12:nth-child(2) .row {
+        align-items: center;
+    }
     .about-phone {
         width: 40px;
         height: 40px;
+        min-width: 40px;
+        min-height: 40px;
         padding: 0;
         display: inline-flex;
         align-items: center;
         justify-content: center;
         font-size: 14px;
         line-height: 1;
+        box-sizing: border-box;
     }
-    .about-wrapper .row .col-md-3.col-2 {
+    .index-page #Section-3 .about-wrapper .row.mt-5 .col-md-3.col-2 {
         display: flex;
         align-items: center;
         justify-content: center;
         padding-right: 0;
     }
-    .about-wrapper .row .col-md-9.col-10 {
+    .index-page #Section-3 .about-wrapper .row.mt-5 .col-md-9.col-10 {
         padding-left: 6px;
     }
     .about-mm {
