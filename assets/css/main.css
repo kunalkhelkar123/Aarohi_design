@@ -1725,6 +1725,28 @@ li a:hover {
     gap: 6px;
 }
 
+.contact-sec-2-call-list .contact-sec-2-a,
+.contact-sec-2-phone-list .contact-sec-2-link {
+    display: inline-flex;
+    align-items: center;
+    width: fit-content;
+    padding: 4px 10px;
+    border-radius: 6px;
+    border: 1px solid rgba(177, 151, 119, 0.35);
+    background-color: rgba(177, 151, 119, 0.08);
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+.contact-sec-2-call-list .contact-sec-2-a:hover,
+.contact-sec-2-phone-list .contact-sec-2-link:hover {
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+    color: var(--color-white);
+}
+
 .contact-sec-2-mb {
     margin-bottom: 40px;
 }
