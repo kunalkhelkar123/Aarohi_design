@@ -215,13 +215,28 @@
     .contact-sec-2-wrapper{
         padding: 52px 0;
     }
-    .contact-sec-2-display{
+    .contact-sec-2-display,
+    .contact-sec-2-display-wrap{
         flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
         margin: 20px 0;
     }
-    .contact-sec-2-display h6{
+    .contact-sec-2-display h6,
+    .contact-sec-2-display-wrap h6{
         margin-right: 0;
-        margin-bottom: 8px;
+        margin-bottom: 0;
+        flex-basis: auto;
+    }
+    .contact-sec-2-phone-list{
+        width: 100%;
+        gap: 8px;
+    }
+    .contact-sec-2-phone-list .contact-sec-2-link,
+    .contact-sec-2-link{
+        display: inline-block;
+        line-height: 1.35;
+        word-break: break-word;
     }
     .service-detail-all-s-wrapper{
         margin: 0 0px 50px 0;
@@ -310,6 +325,13 @@
 }
 
 @media (max-width: 991px) {
+    .contact-sec-2-display,
+    .contact-sec-2-display-wrap {
+        align-items: flex-start;
+    }
+    .contact-sec-2-phone-list {
+        width: 100%;
+    }
     .pre-services-block-section {
         margin-top: 20px;
     }
