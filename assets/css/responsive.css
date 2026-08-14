@@ -130,8 +130,7 @@
         font-size: 15px;
     }
     .index-page #Section2 .service-img-p {
-        font-size: 12px;
-        line-height: 18px;
+        display: none;
     }
     .index-page #Section2 .service-img-cont-wrapper .service-img-btn {
         padding: 8px 10px;
