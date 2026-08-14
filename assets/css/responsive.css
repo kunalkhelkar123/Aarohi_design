@@ -105,15 +105,14 @@
     .index-page #Section2 .service-img-wrap {
         flex: 0 0 50%;
         max-width: 50%;
-        margin-bottom: 0;
+        margin-bottom: 72px;
     }
     .index-page #Section2 .service-img-cont-wrapper {
-        position: static;
-        left: auto;
-        bottom: auto;
-        transform: none;
-        width: 100%;
-        margin-top: 0;
+        position: absolute;
+        left: 50%;
+        bottom: -44px;
+        transform: translateX(-50%);
+        width: 92%;
         padding: 14px 12px;
     }
     .index-page #Section2 .index-sec-2-img {
