@@ -255,6 +255,10 @@
         line-height: 1.35;
         word-break: break-word;
     }
+    .contact-sec-2-form-btn{
+        display: block;
+        margin: 0 auto;
+    }
     .service-detail-all-s-wrapper{
         margin: 0 0px 50px 0;
     }
