@@ -199,6 +199,14 @@
     .contact-sec-2-wrapper{
         padding: 52px 0;
     }
+    .contact-sec-2-display{
+        flex-direction: column;
+        margin: 20px 0;
+    }
+    .contact-sec-2-display h6{
+        margin-right: 0;
+        margin-bottom: 8px;
+    }
     .service-detail-all-s-wrapper{
         margin: 0 0px 50px 0;
     }
@@ -223,6 +231,12 @@
     }
     .faq-bropdown-1-wrapper{
         padding: 50px 13px 50px;
+    }
+    .faq-phone-link{
+        display: block;
+    }
+    .faq-phone-break{
+        display: none;
     }
     .accordion-button{
         padding-left: 10px ;
