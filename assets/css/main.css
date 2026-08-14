@@ -697,6 +697,27 @@ li a:hover {
     gap: 4px;
 }
 
+.about-call-list .service-img-btn {
+    display: inline-flex;
+    align-items: center;
+    width: fit-content;
+    padding: 4px 10px;
+    border-radius: 6px;
+    border: 1px solid rgba(177, 151, 119, 0.35);
+    background-color: rgba(177, 151, 119, 0.1);
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--color-primary);
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+.about-call-list .service-img-btn:hover {
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+    color: var(--color-white);
+}
+
 .about-phone {
     color: var(--color-primary);
     border: 1px solid var(--color-primary);
@@ -1723,28 +1744,6 @@ li a:hover {
     display: flex;
     flex-direction: column;
     gap: 6px;
-}
-
-.contact-sec-2-call-list .contact-sec-2-a,
-.contact-sec-2-phone-list .contact-sec-2-link {
-    display: inline-flex;
-    align-items: center;
-    width: fit-content;
-    padding: 4px 10px;
-    border-radius: 6px;
-    border: 1px solid rgba(177, 151, 119, 0.35);
-    background-color: rgba(177, 151, 119, 0.08);
-    font-weight: 700;
-    text-decoration: none;
-    cursor: pointer;
-    transition: all 0.25s ease;
-}
-
-.contact-sec-2-call-list .contact-sec-2-a:hover,
-.contact-sec-2-phone-list .contact-sec-2-link:hover {
-    background-color: var(--color-primary);
-    border-color: var(--color-primary);
-    color: var(--color-white);
 }
 
 .contact-sec-2-mb {
