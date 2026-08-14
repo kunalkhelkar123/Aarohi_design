@@ -147,6 +147,13 @@
     .about-title-img{
         width: 100%;
     }
+    .portfolio-style-custom-4 .inner-content{
+        bottom: 18px;
+        left: 18px;
+    }
+    .portfolio-style-custom-4::after{
+        height: 100%;
+    }
     .chose-gap{
         width: 100%;
     }
