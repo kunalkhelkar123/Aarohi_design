@@ -9,14 +9,14 @@
         row-gap: 20px;
     }
     .index-sec-2-img{
-        margin-bottom: 0;
+        margin-bottom: 180px;
     }
     .service-img-wrap{
-        margin-bottom: 0;
+        margin-bottom: 220px;
     }
     .service-img-cont-wrapper {
-        width: 100%;
-        padding: 24px 22px;
+        width: 88%;
+        bottom: -180px;
     }
     .sec-2-service-img-wrapper{
         padding: 0;
@@ -84,16 +84,16 @@
         padding-bottom: 10px;
     }
     .service-img-wrap{
-        margin-bottom: 0;
+        margin-bottom: 230px;
     }
     .sec-2-service-img-wrapper{
         padding-left: 0;
         padding-right: 0;
     }
     .service-img-cont-wrapper{
-        width: 100%;
-        padding: 22px 20px;
-        min-height: auto;
+        width: 90%;
+        bottom: -195px;
+        padding: 24px 22px;
     }
     .service-img-cont-wrapper .service-img-btn{
         width: 100%;
@@ -289,5 +289,112 @@
     }
     .blog-deatail-pa{
         margin-left: 0;
+    }
+}
+
+@media (max-width: 1199px) {
+    .home-business-card-section {
+        top: 100px;
+        right: 20px;
+        width: min(390px, 45vw);
+    }
+    .home-business-title {
+        font-size: 22px;
+    }
+    .home-business-chip {
+        font-size: 11px;
+    }
+    .home-business-card-wrap {
+        min-height: 530px;
+    }
+}
+
+@media (max-width: 991px) {
+    .pre-services-block-section {
+        margin-top: 20px;
+    }
+    .pre-services-block {
+        padding: 22px 20px 18px;
+    }
+    .pre-services-trust-stats {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .home-business-card-section {
+        position: relative;
+        top: auto;
+        right: auto;
+        width: 100%;
+        padding: 0 14px;
+        margin-top: 16px;
+        margin-bottom: 0;
+    }
+    .home-business-card-wrap {
+        max-width: 620px;
+        margin: 0 auto;
+        padding: 30px 24px 24px;
+        min-height: 500px;
+    }
+    .home-business-logo img {
+        height: 58px;
+        padding-top: 16px;
+    }
+    .home-business-title {
+        font-size: 24px;
+    }
+    .section-2 {
+        padding-top: 56px;
+    }
+}
+
+@media (max-width: 575px) {
+    .pre-services-block-section {
+        padding-top: 0;
+        margin-top: 16px;
+    }
+    .pre-services-block {
+        padding: 18px 14px 16px;
+        border-radius: 0;
+    }
+    .pre-services-title {
+        font-size: 18px;
+    }
+    .pre-services-trust-title {
+        font-size: 18px;
+    }
+    .pre-services-trust-stats {
+        gap: 10px;
+    }
+    .pre-services-trust-stat {
+        padding: 12px 10px 9px;
+    }
+    .pre-services-trust-stat h6 {
+        font-size: 22px;
+    }
+    .pre-services-trust-stat p {
+        font-size: 13px;
+    }
+    .home-business-card-wrap {
+        padding: 24px 16px 20px;
+        border-radius: 12px;
+        min-height: auto;
+    }
+    .home-business-logo img {
+        height: 48px;
+    }
+    .home-business-title {
+        font-size: 20px;
+    }
+    .home-business-tagline {
+        font-size: 14px;
+    }
+    .home-business-owner {
+        font-size: 16px;
+    }
+    .home-business-action-link {
+        font-size: 13px;
+        padding: 10px 8px;
+    }
+    .section-2 {
+        padding-top: 44px;
     }
 }
